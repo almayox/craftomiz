@@ -19,6 +19,7 @@
 		04C94CF92AB9A0BD00EFEDF8 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CF12AB9A0BD00EFEDF8 /* ProximaNova-Regular.otf */; };
 		04C94CFA2AB9A0BD00EFEDF8 /* Proxima Nova Alt Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CF22AB9A0BD00EFEDF8 /* Proxima Nova Alt Thin.otf */; };
 		04C94CFB2AB9A0BD00EFEDF8 /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CF32AB9A0BD00EFEDF8 /* Proxima Nova Alt Light.otf */; };
+		04C94D022AB9AA2400EFEDF8 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C94D012AB9AA2400EFEDF8 /* SplashScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		04C94CF12AB9A0BD00EFEDF8 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
 		04C94CF22AB9A0BD00EFEDF8 /* Proxima Nova Alt Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Thin.otf"; sourceTree = "<group>"; };
 		04C94CF32AB9A0BD00EFEDF8 /* Proxima Nova Alt Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Light.otf"; sourceTree = "<group>"; };
+		04C94CFC2AB9A79600EFEDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04C94D012AB9AA2400EFEDF8 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,10 @@
 		04C94CDC2AB9925800EFEDF8 /* craftomiz */ = {
 			isa = PBXGroup;
 			children = (
+				04C94CFF2AB9A8BF00EFEDF8 /* ViewModel */,
+				04C94CFE2AB9A8A300EFEDF8 /* Model */,
+				04C94CFD2AB9A88B00EFEDF8 /* View */,
+				04C94CFC2AB9A79600EFEDF8 /* Info.plist */,
 				04C94CEB2AB99EFC00EFEDF8 /* Fonts */,
 				04C94CDD2AB9925800EFEDF8 /* craftomizApp.swift */,
 				04C94CDF2AB9925800EFEDF8 /* ContentView.swift */,
@@ -97,6 +104,36 @@
 				04C94CF12AB9A0BD00EFEDF8 /* ProximaNova-Regular.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		04C94CFD2AB9A88B00EFEDF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04C94D002AB9A96C00EFEDF8 /* SplashScreen */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04C94CFE2AB9A8A300EFEDF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04C94CFF2AB9A8BF00EFEDF8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04C94D002AB9A96C00EFEDF8 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				04C94D012AB9AA2400EFEDF8 /* SplashScreen.storyboard */,
+			);
+			path = SplashScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +203,7 @@
 				04C94CF82AB9A0BD00EFEDF8 /* Proxima Nova Black.otf in Resources */,
 				04C94CFA2AB9A0BD00EFEDF8 /* Proxima Nova Alt Thin.otf in Resources */,
 				04C94CE22AB9925D00EFEDF8 /* Assets.xcassets in Resources */,
+				04C94D022AB9AA2400EFEDF8 /* SplashScreen.storyboard in Resources */,
 				04C94CF62AB9A0BD00EFEDF8 /* Proxima Nova Alt Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +348,7 @@
 				DEVELOPMENT_TEAM = T79R4SXRXS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = craftomiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +378,7 @@
 				DEVELOPMENT_TEAM = T79R4SXRXS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = craftomiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
