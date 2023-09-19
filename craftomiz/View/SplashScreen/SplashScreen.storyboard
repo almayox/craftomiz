@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="craftomiz - branding-03" translatesAutoresizingMaskIntoConstraints="NO" id="yPk-M9-e04">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="craftomiz - branding-03" translatesAutoresizingMaskIntoConstraints="NO" id="yPk-M9-e04">
                                 <rect key="frame" x="-51" y="-30" width="486" height="912"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="393" id="JrV-wx-R5X"/>
