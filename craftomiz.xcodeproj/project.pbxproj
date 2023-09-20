@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		04C94CDE2AB9925800EFEDF8 /* craftomizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94CDD2AB9925800EFEDF8 /* craftomizApp.swift */; };
-		04C94CE02AB9925800EFEDF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94CDF2AB9925800EFEDF8 /* ContentView.swift */; };
 		04C94CE22AB9925D00EFEDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CE12AB9925D00EFEDF8 /* Assets.xcassets */; };
 		04C94CE52AB9925D00EFEDF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CE42AB9925D00EFEDF8 /* Preview Assets.xcassets */; };
 		04C94CF42AB9A0BD00EFEDF8 /* Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CEC2AB9A0BB00EFEDF8 /* Proxima Nova Extrabold.otf */; };
@@ -20,12 +19,15 @@
 		04C94CFA2AB9A0BD00EFEDF8 /* Proxima Nova Alt Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CF22AB9A0BD00EFEDF8 /* Proxima Nova Alt Thin.otf */; };
 		04C94CFB2AB9A0BD00EFEDF8 /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CF32AB9A0BD00EFEDF8 /* Proxima Nova Alt Light.otf */; };
 		04C94D022AB9AA2400EFEDF8 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C94D012AB9AA2400EFEDF8 /* SplashScreen.storyboard */; };
+		04C94D062ABAF6D800EFEDF8 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D052ABAF6D800EFEDF8 /* HomePage.swift */; };
+		04C94D082ABAF83200EFEDF8 /* CategoriesGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D072ABAF83200EFEDF8 /* CategoriesGrid.swift */; };
+		04C94D0A2ABAF93900EFEDF8 /* SliderBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D092ABAF93900EFEDF8 /* SliderBanner.swift */; };
+		04C94D0C2ABAF94C00EFEDF8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D0B2ABAF94C00EFEDF8 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04C94CDA2AB9925800EFEDF8 /* craftomiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = craftomiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C94CDD2AB9925800EFEDF8 /* craftomizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = craftomizApp.swift; sourceTree = "<group>"; };
-		04C94CDF2AB9925800EFEDF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04C94CE12AB9925D00EFEDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C94CE42AB9925D00EFEDF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04C94CEC2AB9A0BB00EFEDF8 /* Proxima Nova Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Extrabold.otf"; sourceTree = "<group>"; };
@@ -38,6 +40,10 @@
 		04C94CF32AB9A0BD00EFEDF8 /* Proxima Nova Alt Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Light.otf"; sourceTree = "<group>"; };
 		04C94CFC2AB9A79600EFEDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		04C94D012AB9AA2400EFEDF8 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		04C94D052ABAF6D800EFEDF8 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		04C94D072ABAF83200EFEDF8 /* CategoriesGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesGrid.swift; sourceTree = "<group>"; };
+		04C94D092ABAF93900EFEDF8 /* SliderBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBanner.swift; sourceTree = "<group>"; };
+		04C94D0B2ABAF94C00EFEDF8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,13 +76,12 @@
 		04C94CDC2AB9925800EFEDF8 /* craftomiz */ = {
 			isa = PBXGroup;
 			children = (
+				04C94CDD2AB9925800EFEDF8 /* craftomizApp.swift */,
+				04C94CFC2AB9A79600EFEDF8 /* Info.plist */,
 				04C94CFF2AB9A8BF00EFEDF8 /* ViewModel */,
 				04C94CFE2AB9A8A300EFEDF8 /* Model */,
 				04C94CFD2AB9A88B00EFEDF8 /* View */,
-				04C94CFC2AB9A79600EFEDF8 /* Info.plist */,
 				04C94CEB2AB99EFC00EFEDF8 /* Fonts */,
-				04C94CDD2AB9925800EFEDF8 /* craftomizApp.swift */,
-				04C94CDF2AB9925800EFEDF8 /* ContentView.swift */,
 				04C94CE12AB9925D00EFEDF8 /* Assets.xcassets */,
 				04C94CE32AB9925D00EFEDF8 /* Preview Content */,
 			);
@@ -109,6 +114,8 @@
 		04C94CFD2AB9A88B00EFEDF8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04C94D032ABAF56A00EFEDF8 /* Login */,
+				04C94D042ABAF6A500EFEDF8 /* HomePage */,
 				04C94D002AB9A96C00EFEDF8 /* SplashScreen */,
 			);
 			path = View;
@@ -134,6 +141,24 @@
 				04C94D012AB9AA2400EFEDF8 /* SplashScreen.storyboard */,
 			);
 			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		04C94D032ABAF56A00EFEDF8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		04C94D042ABAF6A500EFEDF8 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				04C94D052ABAF6D800EFEDF8 /* HomePage.swift */,
+				04C94D092ABAF93900EFEDF8 /* SliderBanner.swift */,
+				04C94D0B2ABAF94C00EFEDF8 /* TabBar.swift */,
+				04C94D072ABAF83200EFEDF8 /* CategoriesGrid.swift */,
+			);
+			path = HomePage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C94CE02AB9925800EFEDF8 /* ContentView.swift in Sources */,
+				04C94D082ABAF83200EFEDF8 /* CategoriesGrid.swift in Sources */,
+				04C94D062ABAF6D800EFEDF8 /* HomePage.swift in Sources */,
+				04C94D0A2ABAF93900EFEDF8 /* SliderBanner.swift in Sources */,
 				04C94CDE2AB9925800EFEDF8 /* craftomizApp.swift in Sources */,
+				04C94D0C2ABAF94C00EFEDF8 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
