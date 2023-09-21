@@ -13,9 +13,10 @@ struct CraftomizCategoriesGrid: View {
         let width: CGFloat = 180
         let height: CGFloat = 250
         let spacing: CGFloat = 10
+        let blueColor = Color("blueColor")
         
       
-        NavigationView {
+        
             VStack(spacing: spacing) {
                 HStack(spacing: spacing) {
                     NavigationLink {
@@ -32,8 +33,8 @@ struct CraftomizCategoriesGrid: View {
                             ZStack {
                                 Rectangle()
                                     .frame(width: width, height: 40)
-                                    .foregroundColor(.black)
-                                    .opacity(0.2)
+                                    .foregroundColor(blueColor)
+                                    .opacity(0.6)
                                     .padding(.top, 150.0)
                                 
                                 Text("DREAMCATCHER")
@@ -58,8 +59,8 @@ struct CraftomizCategoriesGrid: View {
                             ZStack {
                                 Rectangle()
                                     .frame(width: width, height: 40)
-                                    .foregroundColor(.black)
-                                    .opacity(0.2)
+                                    .foregroundColor(blueColor)
+                                    .opacity(0.6)
                                     .padding(.top, 150.0)
                                 
                                 Text("KEYCHAIN")
@@ -87,8 +88,8 @@ struct CraftomizCategoriesGrid: View {
                             ZStack {
                                 Rectangle()
                                     .frame(width: width, height: 40)
-                                    .foregroundColor(.black)
-                                    .opacity(0.2)
+                                    .foregroundColor(blueColor)
+                                    .opacity(0.6)
                                     .padding(.top, 150.0)
                                 
                                 Text("HANGING")
@@ -113,8 +114,8 @@ struct CraftomizCategoriesGrid: View {
                             ZStack {
                                 Rectangle()
                                     .frame(width: width, height: 40)
-                                    .foregroundColor(.black)
-                                    .opacity(0.2)
+                                    .foregroundColor(blueColor)
+                                    .opacity(0.6)
                                     .padding(.top, 150.0)
                                 
                                 Text("ACCESSORIES")
@@ -127,7 +128,8 @@ struct CraftomizCategoriesGrid: View {
 
                 }
             }
-        }
+        
+        
         
         
             

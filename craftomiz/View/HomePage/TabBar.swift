@@ -13,7 +13,7 @@ struct TabBar: View {
         ZStack {
             Rectangle()
                 .frame(width: 350, height: 60.0)
-                .foregroundColor(Color("BlueColor"))
+                .foregroundColor(Color("blueColor"))
                 .cornerRadius(50)
             
             HStack {
