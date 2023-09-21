@@ -20,9 +20,14 @@
 		04C94CFB2AB9A0BD00EFEDF8 /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CF32AB9A0BD00EFEDF8 /* Proxima Nova Alt Light.otf */; };
 		04C94D022AB9AA2400EFEDF8 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C94D012AB9AA2400EFEDF8 /* SplashScreen.storyboard */; };
 		04C94D062ABAF6D800EFEDF8 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D052ABAF6D800EFEDF8 /* HomePage.swift */; };
-		04C94D082ABAF83200EFEDF8 /* CategoriesGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D072ABAF83200EFEDF8 /* CategoriesGrid.swift */; };
 		04C94D0A2ABAF93900EFEDF8 /* SliderBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D092ABAF93900EFEDF8 /* SliderBanner.swift */; };
 		04C94D0C2ABAF94C00EFEDF8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D0B2ABAF94C00EFEDF8 /* TabBar.swift */; };
+		04C94D0E2ABB01F400EFEDF8 /* CraftomizCategoriesGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D0D2ABB01F400EFEDF8 /* CraftomizCategoriesGrid.swift */; };
+		04C94D102ABB020C00EFEDF8 /* LeatherCategoriesGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D0F2ABB020C00EFEDF8 /* LeatherCategoriesGrid.swift */; };
+		04C94D162ABB14DB00EFEDF8 /* DreamCatcherProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D152ABB14DB00EFEDF8 /* DreamCatcherProducts.swift */; };
+		04C94D192ABB150800EFEDF8 /* KeychainProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D182ABB150800EFEDF8 /* KeychainProducts.swift */; };
+		04C94D1B2ABB152500EFEDF8 /* HangingProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D1A2ABB152500EFEDF8 /* HangingProducts.swift */; };
+		04C94D1D2ABB154400EFEDF8 /* AccessoriesProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D1C2ABB154400EFEDF8 /* AccessoriesProducts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +43,17 @@
 		04C94CF12AB9A0BD00EFEDF8 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
 		04C94CF22AB9A0BD00EFEDF8 /* Proxima Nova Alt Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Thin.otf"; sourceTree = "<group>"; };
 		04C94CF32AB9A0BD00EFEDF8 /* Proxima Nova Alt Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Light.otf"; sourceTree = "<group>"; };
-		04C94CFC2AB9A79600EFEDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04C94CFC2AB9A79600EFEDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C94D012AB9AA2400EFEDF8 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
 		04C94D052ABAF6D800EFEDF8 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
-		04C94D072ABAF83200EFEDF8 /* CategoriesGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesGrid.swift; sourceTree = "<group>"; };
 		04C94D092ABAF93900EFEDF8 /* SliderBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBanner.swift; sourceTree = "<group>"; };
 		04C94D0B2ABAF94C00EFEDF8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		04C94D0D2ABB01F400EFEDF8 /* CraftomizCategoriesGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftomizCategoriesGrid.swift; sourceTree = "<group>"; };
+		04C94D0F2ABB020C00EFEDF8 /* LeatherCategoriesGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeatherCategoriesGrid.swift; sourceTree = "<group>"; };
+		04C94D152ABB14DB00EFEDF8 /* DreamCatcherProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamCatcherProducts.swift; sourceTree = "<group>"; };
+		04C94D182ABB150800EFEDF8 /* KeychainProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainProducts.swift; sourceTree = "<group>"; };
+		04C94D1A2ABB152500EFEDF8 /* HangingProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangingProducts.swift; sourceTree = "<group>"; };
+		04C94D1C2ABB154400EFEDF8 /* AccessoriesProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoriesProducts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +86,13 @@
 		04C94CDC2AB9925800EFEDF8 /* craftomiz */ = {
 			isa = PBXGroup;
 			children = (
-				04C94CDD2AB9925800EFEDF8 /* craftomizApp.swift */,
 				04C94CFC2AB9A79600EFEDF8 /* Info.plist */,
+				04C94CDD2AB9925800EFEDF8 /* craftomizApp.swift */,
+				04C94CEB2AB99EFC00EFEDF8 /* Fonts */,
+				04C94D002AB9A96C00EFEDF8 /* SplashScreen */,
 				04C94CFF2AB9A8BF00EFEDF8 /* ViewModel */,
 				04C94CFE2AB9A8A300EFEDF8 /* Model */,
 				04C94CFD2AB9A88B00EFEDF8 /* View */,
-				04C94CEB2AB99EFC00EFEDF8 /* Fonts */,
 				04C94CE12AB9925D00EFEDF8 /* Assets.xcassets */,
 				04C94CE32AB9925D00EFEDF8 /* Preview Content */,
 			);
@@ -114,9 +125,9 @@
 		04C94CFD2AB9A88B00EFEDF8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				04C94D032ABAF56A00EFEDF8 /* Login */,
+				04C94D122ABB141800EFEDF8 /* LeatherCategories */,
+				04C94D112ABB140100EFEDF8 /* CraftomizCategories */,
 				04C94D042ABAF6A500EFEDF8 /* HomePage */,
-				04C94D002AB9A96C00EFEDF8 /* SplashScreen */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -143,22 +154,34 @@
 			path = SplashScreen;
 			sourceTree = "<group>";
 		};
-		04C94D032ABAF56A00EFEDF8 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
 		04C94D042ABAF6A500EFEDF8 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
 				04C94D052ABAF6D800EFEDF8 /* HomePage.swift */,
 				04C94D092ABAF93900EFEDF8 /* SliderBanner.swift */,
 				04C94D0B2ABAF94C00EFEDF8 /* TabBar.swift */,
-				04C94D072ABAF83200EFEDF8 /* CategoriesGrid.swift */,
+				04C94D0D2ABB01F400EFEDF8 /* CraftomizCategoriesGrid.swift */,
+				04C94D0F2ABB020C00EFEDF8 /* LeatherCategoriesGrid.swift */,
 			);
 			path = HomePage;
+			sourceTree = "<group>";
+		};
+		04C94D112ABB140100EFEDF8 /* CraftomizCategories */ = {
+			isa = PBXGroup;
+			children = (
+				04C94D152ABB14DB00EFEDF8 /* DreamCatcherProducts.swift */,
+				04C94D182ABB150800EFEDF8 /* KeychainProducts.swift */,
+				04C94D1A2ABB152500EFEDF8 /* HangingProducts.swift */,
+				04C94D1C2ABB154400EFEDF8 /* AccessoriesProducts.swift */,
+			);
+			path = CraftomizCategories;
+			sourceTree = "<group>";
+		};
+		04C94D122ABB141800EFEDF8 /* LeatherCategories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LeatherCategories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,11 +263,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C94D082ABAF83200EFEDF8 /* CategoriesGrid.swift in Sources */,
 				04C94D062ABAF6D800EFEDF8 /* HomePage.swift in Sources */,
+				04C94D192ABB150800EFEDF8 /* KeychainProducts.swift in Sources */,
+				04C94D162ABB14DB00EFEDF8 /* DreamCatcherProducts.swift in Sources */,
+				04C94D102ABB020C00EFEDF8 /* LeatherCategoriesGrid.swift in Sources */,
 				04C94D0A2ABAF93900EFEDF8 /* SliderBanner.swift in Sources */,
+				04C94D1B2ABB152500EFEDF8 /* HangingProducts.swift in Sources */,
 				04C94CDE2AB9925800EFEDF8 /* craftomizApp.swift in Sources */,
 				04C94D0C2ABAF94C00EFEDF8 /* TabBar.swift in Sources */,
+				04C94D1D2ABB154400EFEDF8 /* AccessoriesProducts.swift in Sources */,
+				04C94D0E2ABB01F400EFEDF8 /* CraftomizCategoriesGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
