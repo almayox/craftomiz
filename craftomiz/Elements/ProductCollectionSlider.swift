@@ -14,42 +14,49 @@ struct ProductCollectionSlider: View {
         
         ScrollView (.horizontal, showsIndicators: false) {
             
-            HStack (spacing: 20) {
+            HStack (spacing: 0.0) {
                 
-                // all the below vstack should b in for loop too sho products
-                VStack {
-                    Image("placeHolder")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(width: 180, height: 230)
-                        .clipped()
+                // all the below vstack should be in for loop too sho products
+                
+                Button {
+                    // action
+                } label: {
+                    // label
+                    VStack {
+                        Image("placeHolder")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .frame(width: 180, height: 230)
+                            .clipped()
 
+                      Spacer()
 
-                  Spacer()
+                        HStack(alignment: .center) {
 
-                    
+                            Text("Product name dream catcher")
+                                .font(Font.system(size: 14))
+                                .multilineTextAlignment(.leading)
+                                .lineLimit(2)
+                                .foregroundColor(.black)
 
-                    HStack(alignment: .center) {
+                            Spacer()
 
-                        Text("Product name dream catcher")
-                            .font(Font.system(size: 14))
-                            .multilineTextAlignment(.leading)
-                            .lineLimit(2)
+                            Text("\(price)" + "KD")
+                                .font(Font.system(size: 18))
+                                .fontWeight(.bold)
+                                .foregroundColor(.black)
 
-                        Spacer()
-
-                        Text("\(price)" + "KD")
-                            .font(Font.system(size: 18))
-                            .fontWeight(.bold)
+                        }
 
                     }
-
+                        .padding(.all, 10).frame(width: 200, height: 300)
+                        //.background(Color("lightGray"))
+                        .cornerRadius(5)
                 }
-                    .padding(.all, 10).frame(width: 200, height: 300)
-                    .background(Color("lightGray"))
-                    .cornerRadius(5)
 
-              }.padding(20)
+                
+
+            }.padding(.horizontal, 20)
         }
         
         

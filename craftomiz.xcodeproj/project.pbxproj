@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		043FFE822AC1932400303415 /* ProductCollectionSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FFE812AC1932400303415 /* ProductCollectionSlider.swift */; };
+		045045D72AC2411000D5ED13 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045045D62AC2411000D5ED13 /* TabBar.swift */; };
+		045045D92AC2509F00D5ED13 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045045D82AC2509F00D5ED13 /* TopBar.swift */; };
 		04C94CDE2AB9925800EFEDF8 /* craftomizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94CDD2AB9925800EFEDF8 /* craftomizApp.swift */; };
 		04C94CE22AB9925D00EFEDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CE12AB9925D00EFEDF8 /* Assets.xcassets */; };
 		04C94CE52AB9925D00EFEDF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CE42AB9925D00EFEDF8 /* Preview Assets.xcassets */; };
@@ -21,8 +23,6 @@
 		04C94CFB2AB9A0BD00EFEDF8 /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CF32AB9A0BD00EFEDF8 /* Proxima Nova Alt Light.otf */; };
 		04C94D022AB9AA2400EFEDF8 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C94D012AB9AA2400EFEDF8 /* SplashScreen.storyboard */; };
 		04C94D062ABAF6D800EFEDF8 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D052ABAF6D800EFEDF8 /* HomePage.swift */; };
-		04C94D0A2ABAF93900EFEDF8 /* SliderBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D092ABAF93900EFEDF8 /* SliderBanner.swift */; };
-		04C94D0C2ABAF94C00EFEDF8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D0B2ABAF94C00EFEDF8 /* TabBar.swift */; };
 		04C94D0E2ABB01F400EFEDF8 /* CraftomizCategoriesGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D0D2ABB01F400EFEDF8 /* CraftomizCategoriesGrid.swift */; };
 		04C94D102ABB020C00EFEDF8 /* LeatherCategoriesGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D0F2ABB020C00EFEDF8 /* LeatherCategoriesGrid.swift */; };
 		04C94D162ABB14DB00EFEDF8 /* DreamCatcherProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94D152ABB14DB00EFEDF8 /* DreamCatcherProducts.swift */; };
@@ -33,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		043FFE812AC1932400303415 /* ProductCollectionSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionSlider.swift; sourceTree = "<group>"; };
+		045045D62AC2411000D5ED13 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		045045D82AC2509F00D5ED13 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		04C94CDA2AB9925800EFEDF8 /* craftomiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = craftomiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C94CDD2AB9925800EFEDF8 /* craftomizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = craftomizApp.swift; sourceTree = "<group>"; };
 		04C94CE12AB9925D00EFEDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,8 +50,6 @@
 		04C94CFC2AB9A79600EFEDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C94D012AB9AA2400EFEDF8 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
 		04C94D052ABAF6D800EFEDF8 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
-		04C94D092ABAF93900EFEDF8 /* SliderBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBanner.swift; sourceTree = "<group>"; };
-		04C94D0B2ABAF94C00EFEDF8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		04C94D0D2ABB01F400EFEDF8 /* CraftomizCategoriesGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftomizCategoriesGrid.swift; sourceTree = "<group>"; };
 		04C94D0F2ABB020C00EFEDF8 /* LeatherCategoriesGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeatherCategoriesGrid.swift; sourceTree = "<group>"; };
 		04C94D152ABB14DB00EFEDF8 /* DreamCatcherProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamCatcherProducts.swift; sourceTree = "<group>"; };
@@ -73,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				043FFE812AC1932400303415 /* ProductCollectionSlider.swift */,
+				045045D62AC2411000D5ED13 /* TabBar.swift */,
+				045045D82AC2509F00D5ED13 /* TopBar.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -169,8 +171,6 @@
 			isa = PBXGroup;
 			children = (
 				04C94D052ABAF6D800EFEDF8 /* HomePage.swift */,
-				04C94D092ABAF93900EFEDF8 /* SliderBanner.swift */,
-				04C94D0B2ABAF94C00EFEDF8 /* TabBar.swift */,
 				04C94D0D2ABB01F400EFEDF8 /* CraftomizCategoriesGrid.swift */,
 				04C94D0F2ABB020C00EFEDF8 /* LeatherCategoriesGrid.swift */,
 			);
@@ -278,13 +278,13 @@
 				04C94D192ABB150800EFEDF8 /* KeychainProducts.swift in Sources */,
 				04C94D162ABB14DB00EFEDF8 /* DreamCatcherProducts.swift in Sources */,
 				04C94D102ABB020C00EFEDF8 /* LeatherCategoriesGrid.swift in Sources */,
+				045045D92AC2509F00D5ED13 /* TopBar.swift in Sources */,
 				043FFE822AC1932400303415 /* ProductCollectionSlider.swift in Sources */,
-				04C94D0A2ABAF93900EFEDF8 /* SliderBanner.swift in Sources */,
 				04C94D1B2ABB152500EFEDF8 /* HangingProducts.swift in Sources */,
 				04C94CDE2AB9925800EFEDF8 /* craftomizApp.swift in Sources */,
-				04C94D0C2ABAF94C00EFEDF8 /* TabBar.swift in Sources */,
 				04C94D1D2ABB154400EFEDF8 /* AccessoriesProducts.swift in Sources */,
 				04C94D0E2ABB01F400EFEDF8 /* CraftomizCategoriesGrid.swift in Sources */,
+				045045D72AC2411000D5ED13 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

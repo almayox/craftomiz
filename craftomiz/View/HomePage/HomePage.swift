@@ -14,50 +14,24 @@ struct HomePage: View {
         ZStack {
             
             
+            
             NavigationView {
                 ScrollView {
                     
-                    HStack {
-                        Button {
-                            //action
-                        } label: {
-                            Image(systemName:"line.3.horizontal")
-                                .foregroundColor(.black)
-                        }
-                        .padding(.leading, 20.0)
-                        
-                        Spacer()
-                        
-                        Image("craftomizLogo")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(height: 30)
-                            .padding(.vertical, 30)
-                        
-                        Spacer()
-                        
-                        Button {
-                            //action
-                        } label: {
-                            Image(systemName:"line.3.horizontal")
-                                .foregroundColor(.black)
-                                
-                        }
-                        .padding(.trailing, 20.0)
-                    }
+                    //top bar stack in home page
+                    
                     
                     
                     VStack(spacing: 10) {
+                        // slider banner
                         
-                        CraftomizCategoriesGrid()
                         
-                        Spacer()
                         
+                        // new arraival products in home page
                         HStack {
                            
                             HStack {
-                                Image(systemName: "text.below.photo")
-                                Text("1992 LEATHER CRAFT")
+                                Text("NEW ARRIVAL")
                                     .frame(height: 30)
                                 .bold()
                             }
@@ -74,17 +48,60 @@ struct HomePage: View {
                             .padding(.trailing, 20.0)
                         }
                         
-                        Spacer()
-                        LeatherCategoriesGrid()
+                        ProductCollectionSlider()
+                        
+                        
+                        // craftomiz categories in home page
+                        HStack {
+                           
+                            HStack {
+                                Image("instagramIcon")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 20)
+                                
+                                Text("CRAFTOMIZ")
+                                    .frame(height: 30)
+                                .bold()
+                            }
+                            .padding(.top, 20.0)
                             
+                        }
+                        CraftomizCategoriesGrid()
+                        Spacer()
+                        
+                        
+                        // 1992 leather craft categories in home page
+                        HStack {
+                           
+                            HStack {
+                                Image("instagramIcon")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 20)
+                                
+                                Text("1992 LEATHER CRAFT")
+                                    .frame(height: 30)
+                                .bold()
+                            }
+                        }
+                            .padding(.top, 20.0)
+                        
+                        LeatherCategoriesGrid()
+                        Spacer()
                     }
+                    .padding(.top, 100)
                 }
                 .background(Color(.white))
             }
             
             VStack {
+                // top bar stack in home page
+                TopBar()
                 
                 Spacer()
+                
+                //below tab bar in home page
                 TabBar()
             }
             
