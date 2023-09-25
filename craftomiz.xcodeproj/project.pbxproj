@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043FFE822AC1932400303415 /* ProductCollectionSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FFE812AC1932400303415 /* ProductCollectionSlider.swift */; };
 		04C94CDE2AB9925800EFEDF8 /* craftomizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94CDD2AB9925800EFEDF8 /* craftomizApp.swift */; };
 		04C94CE22AB9925D00EFEDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CE12AB9925D00EFEDF8 /* Assets.xcassets */; };
 		04C94CE52AB9925D00EFEDF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C94CE42AB9925D00EFEDF8 /* Preview Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043FFE812AC1932400303415 /* ProductCollectionSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionSlider.swift; sourceTree = "<group>"; };
 		04C94CDA2AB9925800EFEDF8 /* craftomiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = craftomiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C94CDD2AB9925800EFEDF8 /* craftomizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = craftomizApp.swift; sourceTree = "<group>"; };
 		04C94CE12AB9925D00EFEDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043FFE802AC192A400303415 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				043FFE812AC1932400303415 /* ProductCollectionSlider.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
 		04C94CD12AB9925800EFEDF8 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +102,7 @@
 				04C94D002AB9A96C00EFEDF8 /* SplashScreen */,
 				04C94CFF2AB9A8BF00EFEDF8 /* ViewModel */,
 				04C94CFE2AB9A8A300EFEDF8 /* Model */,
+				043FFE802AC192A400303415 /* Elements */,
 				04C94CFD2AB9A88B00EFEDF8 /* View */,
 				04C94CE12AB9925D00EFEDF8 /* Assets.xcassets */,
 				04C94CE32AB9925D00EFEDF8 /* Preview Content */,
@@ -267,6 +278,7 @@
 				04C94D192ABB150800EFEDF8 /* KeychainProducts.swift in Sources */,
 				04C94D162ABB14DB00EFEDF8 /* DreamCatcherProducts.swift in Sources */,
 				04C94D102ABB020C00EFEDF8 /* LeatherCategoriesGrid.swift in Sources */,
+				043FFE822AC1932400303415 /* ProductCollectionSlider.swift in Sources */,
 				04C94D0A2ABAF93900EFEDF8 /* SliderBanner.swift in Sources */,
 				04C94D1B2ABB152500EFEDF8 /* HangingProducts.swift in Sources */,
 				04C94CDE2AB9925800EFEDF8 /* craftomizApp.swift in Sources */,
