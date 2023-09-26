@@ -13,91 +13,91 @@ struct HomePage: View {
        
         ZStack {
             
-            
-            
-            NavigationView {
-                ScrollView {
-                    
-                    //top bar stack in home page
-                    
-                    
-                    
-                    VStack(spacing: 10) {
-                        // slider banner
-                        
-                        
-                        
-                        // new arraival products in home page
-                        HStack {
-                           
-                            HStack {
-                                Text("NEW ARRIVAL")
-                                    .frame(height: 30)
-                                .bold()
-                            }
-                            .padding(.leading, 20.0)
-                            
-                            Spacer()
-                            
-                            Button {
-                                //action
-                            } label: {
-                                Text("View all")
-                                    .foregroundColor(.black)
-                            }
-                            .padding(.trailing, 20.0)
-                        }
-                        
-                        ProductCollectionSlider()
-                        
-                        
-                        // craftomiz categories in home page
-                        HStack {
-                           
-                            HStack {
-                                Image("instagramIcon")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width: 20)
-                                
-                                Text("CRAFTOMIZ")
-                                    .frame(height: 30)
-                                .bold()
-                            }
-                            .padding(.top, 20.0)
-                            
-                        }
-                        CraftomizCategoriesGrid()
-                        Spacer()
-                        
-                        
-                        // 1992 leather craft categories in home page
-                        HStack {
-                           
-                            HStack {
-                                Image("instagramIcon")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width: 20)
-                                
-                                Text("1992 LEATHER CRAFT")
-                                    .frame(height: 30)
-                                .bold()
-                            }
-                        }
-                            .padding(.top, 20.0)
-                        
-                        LeatherCategoriesGrid()
-                        Spacer()
-                    }
-                    .padding(.top, 100)
-                }
-                .background(Color(.white))
-            }
-            
+
             VStack {
                 // top bar stack in home page
                 TopBar()
+                NavigationView {
+                    
+                    ScrollView {
+                        
+                        //top bar stack in home page
+                        
+                        
+                        
+                        VStack(spacing: 10) {
+                            // slider banner
+                            
+                            
+                            // new arraival products in home page
+                            HStack {
+                               
+                                HStack {
+                                    Text("NEW ARRIVAL")
+                                        .frame(height: 30)
+                                    .bold()
+                                }
+                                .padding(.leading, 20.0)
+                                
+                                Spacer()
+                                
+                                Button {
+                                    //action
+                                } label: {
+                                    Text("View all")
+                                        .foregroundColor(.black)
+                                }
+                                .padding(.trailing, 20.0)
+                            }
+                            
+                            ProductCollectionSlider()
+                            
+                            // craftomiz categories in home page
+                            HStack {
+                               
+                                HStack {
+                                    Image("instagramIcon")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 20)
+                                    
+                                    Text("CRAFTOMIZ")
+                                        .frame(height: 30)
+                                    .bold()
+                                }
+                                .padding(.top, 20.0)
+                                
+                            }
+                            CraftomizCategoriesGrid()
+                            Spacer()
+                            
+                            
+                            // 1992 leather craft categories in home page
+                            HStack {
+                               
+                                HStack {
+                                    Image("instagramIcon")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 20)
+                                    
+                                    Text("1992 LEATHER CRAFT")
+                                        .frame(height: 30)
+                                    .bold()
+                                }
+                            }
+                                .padding(.top, 20.0)
+                            
+                            LeatherCategoriesGrid()
+                            Spacer()
+                        }
+                        .padding(.top, 0)
+                    }
+                    
+                }.padding(.top, -50)
+            }
+            
+            VStack {
                 
                 Spacer()
                 

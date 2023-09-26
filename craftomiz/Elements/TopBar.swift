@@ -10,12 +10,13 @@ import SwiftUI
 struct TopBar: View {
     var body: some View {
         
-        VStack {
+        
             ZStack {
                 Rectangle()
+                    //.padding(.bottom, -120)
                     .foregroundColor(Color("blueColor"))
                     .frame(width: .infinity, height: 140)
-                    //.edgesIgnoringSafeArea(.top)
+                    //.ignoresSafeArea()
                 
                 HStack {
                     Button {
@@ -45,12 +46,11 @@ struct TopBar: View {
                     }
                     .padding(.trailing, 20.0)
                 }
-                .padding(.top, 50)
+                .padding(.top, 40)
             }
             .ignoresSafeArea()
             
-            Spacer()
-        }
+        
     }
 }
 
